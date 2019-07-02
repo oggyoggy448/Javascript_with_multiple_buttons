@@ -1,0 +1,21 @@
+body{
+    background-color: black;
+}
+h1{
+    text-align: center;
+    color: white;   
+}
+
+#color_change_para{
+    background-color: #fff;
+}
+
+color_change_para_after_click{
+    background-color: yellow;
+}
+
+canvas{
+    width: 300px;
+    height: 200px;
+    border: 2px blue solid;
+}
