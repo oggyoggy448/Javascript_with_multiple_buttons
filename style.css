@@ -1,5 +1,5 @@
 body{
-    background-color: black;
+    background-color: white;
 }
 h1{
     text-align: center;
@@ -15,6 +15,17 @@ color_change_para_after_click{
 }
 
 canvas{
+    width: 300px;
+    height: 200px;
+    border: 2px blue solid;
+}
+
+
+.color_change_para02{
+    color: white;
+}
+
+#draw_shape01,#draw_shape02{
     width: 300px;
     height: 200px;
     border: 2px blue solid;

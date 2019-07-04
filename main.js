@@ -40,3 +40,32 @@ function change_canvas(){
     context.fillText("Colored Box",100,90);
 
 }
+function color_change_the_text(){
+    var text = document.getElementById("color_change_para02");
+    var color_picker = document.getElementById("color_picker")
+
+    var picked_color = color_picker.value;
+    text.style.backgroundColor = picked_color;
+    
+}
+
+function color_change_the_text_for_click(){
+    var text = document.getElementById("color_change_para02");
+    var color_picker = document.getElementById("color_picker_as_click")
+
+    var picked_color = color_picker.value;
+    text.style.backgroundColor = picked_color;
+    
+}
+
+function draw_box(){
+    var canvas = document.getElementById("draw_shape01");
+    var range_selector = document.getElementById("range_selector");
+
+    var range_value = range_selector.value;
+    var context = canvas.getContext("2d");
+    context.clearRect(0,0,canvas.width,canvas.height);
+    context.fillStyle = "yellow";
+    context.fillRect(10,10,range_value,range_value);
+}
+
