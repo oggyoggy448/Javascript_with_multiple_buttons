@@ -13,16 +13,21 @@
     </div>
 
     <div class="btn_group">
+        <!-- onclick event will be executed when a user click on the button  -->
+
         <input type="button" value="Alert" class="btn" class="alert_btn" onclick="btn_alert()">
         <input type="button" value="confirm_option" class="confirm_btn" onclick="confirm_option_alert()">
         <input type="button" value="change element content" onclick="change_content()">
         <input type="button" value="change background color" onclick="change_color()">
         <input type="button" value="change canvas" onclick="change_canvas()">
-        <input type="color" value="#000000" onchange="color_change_the_text()" id="color_picker">
         <input type="color" value="#000000" onclick="color_change_the_text_for_click()" id="color_picker_as_click">
-        <input type="range" value="10" min="0" max="100" oninput="draw_box()" id="range_selector">
-        <input type="file" accept="images/*" multiple="false" id="upload_a_pic" onchange="upload_image">
 
+        <!-- onchange event will be executted when a state of html element gets change -->
+        <input type="color" value="#000000" onchange="color_change_the_text()" id="color_picker">
+        <input type="file" accept="images/*" multiple="false" id="upload_a_pic" onchange="upload_image">
+        
+        
+        <input type="range" value="10" min="0" max="100" oninput="draw_box()" id="range_selector">
     </div>
 
     <hr>
